@@ -51,7 +51,7 @@ const ShortPolling = (props) => {
           value={message}
         ></input>
       </form>
-      <h2>chat</h2>
+      <h2>enter your message</h2>
       <ul className="list-group">
         {messages.map((m) => (
           <li key={m.currentDateTime} className="list-group-item">
